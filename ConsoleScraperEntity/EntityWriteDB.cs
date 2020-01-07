@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleScraperEntity
 {
-    class Program
+    class EntityWriteDB
     {
-        static void Main(string[] args)
+        public static void EntityWrite()
         {
-            List<List<string>> stocks = YahooFinanceScraper.Login();
+            
         }
     }
 }
