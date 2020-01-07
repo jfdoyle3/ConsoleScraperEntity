@@ -1,0 +1,2 @@
+# ConsoleScraperEntity
+Entity Framework Scraper
