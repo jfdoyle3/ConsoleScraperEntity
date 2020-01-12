@@ -11,6 +11,7 @@ namespace ConsoleScraperEntity
         static void Main(string[] args)
         {
             List<List<string>> stocks = YahooFinanceScraper.Login();
+            EntityWriteDB.EntityWrite(stocks);
         }
     }
 }
